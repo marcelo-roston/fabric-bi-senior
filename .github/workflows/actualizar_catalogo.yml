@@ -1,0 +1,38 @@
+name: Actualizar catálogo Fabric
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'Documentacion/catalogo_fabric_linaje.xlsx'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generar-catalogo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencia
+        run: pip install -r requirements.txt
+
+      - name: Generar catálogo
+        run: python Scripts/generar_catalogo.py
+
+      - name: Guardar catálogo actualizado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Documentacion/catalogo_fabric_linaje.xlsx
+          git diff --cached --quiet || git commit -m "docs: actualizar catálogo Fabric [skip ci]"
+          git push
