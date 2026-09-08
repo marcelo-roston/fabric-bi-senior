@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Liq Fleteros Completo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8df658c8-4447-8677-40c7-cc75951b445b"
+  }
+}

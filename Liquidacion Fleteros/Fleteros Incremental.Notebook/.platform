@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "Fleteros Incremental"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c7b0b87f-5b82-816f-4fb6-6fda43d5a67e"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "LakehouseTableSource",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "table": "U3_servicio_ruedas"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "Tablas_Silver",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "299ea5ea-d536-a425-4669-a674de58382b",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "OdbcSink",
+            "writeBatchSize": 0,
+            "datasetSettings": {
+              "type": "OdbcTable",
+              "typeProperties": {
+                "tableName": "powerbi.choferes_ruedas"
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "4e474751-4359-4730-a1ef-e71c44e6b4cb"
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "fecha",
+                  "type": "Date",
+                  "physicalType": "date"
+                },
+                "sink": {
+                  "name": "fecha",
+                  "type": "DateTime"
+                }
+              },
+              {
+                "source": {
+                  "name": "legajo_nro",
+                  "type": "String",
+                  "physicalType": "string"
+                },
+                "sink": {
+                  "name": "legajo_nro",
+                  "type": "String"
+                }
+              },
+              {
+                "source": {
+                  "name": "patente",
+                  "type": "String",
+                  "physicalType": "string"
+                },
+                "sink": {
+                  "name": "patente",
+                  "type": "String"
+                }
+              },
+              {
+                "source": {
+                  "name": "sucursal",
+                  "type": "String",
+                  "physicalType": "string"
+                },
+                "sink": {
+                  "name": "sucursal",
+                  "type": "String"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy data1",
+        "dependsOn": []
+      }
+    ]
+  }
+}

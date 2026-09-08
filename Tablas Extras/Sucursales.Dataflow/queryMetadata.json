@@ -1,0 +1,35 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Sucursales",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "4aeae9b8-0872-4788-bfa6-e602077c91f6",
+  "queriesMetadata": {
+    "Consulta": {
+      "queryId": "ceb10959-e4f9-45f6-a356-c9f3385292b3",
+      "queryName": "Consulta",
+      "loadEnabled": false
+    },
+    "Consulta_DataDestination": {
+      "queryId": "4535850a-38ad-47a6-9ee2-c7a0ee953993",
+      "queryName": "Consulta_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://urbexpress.sharepoint.com/",
+      "kind": "SharePoint",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"dcce3dec-c6b1-4ddd-846d-5b46577b1600\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"cb66675a-e5c0-4e4c-9e49-c130c761516c\"}"
+    }
+  ]
+}

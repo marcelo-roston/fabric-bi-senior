@@ -1,0 +1,33 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Vistas TMS Silver",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "4aeae9b8-0872-4788-bfa6-e602077c91f6",
+  "queriesMetadata": {
+    "Vista Troncales": {
+      "queryId": "8c3d8d70-70cd-4715-af78-9677ec42245d",
+      "queryName": "Vista Troncales",
+      "loadEnabled": false
+    },
+    "Vista Troncales_DataDestination": {
+      "queryId": "58c43353-80e6-4d63-ba46-97515ba22100",
+      "queryName": "Vista Troncales_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "181.30.37.12,10340;SGLBI_URBANO_PROD",
+      "kind": "SQL",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"906be8cc-6f2c-4c92-965b-cb9bfe0da198\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"cb66675a-e5c0-4e4c-9e49-c130c761516c\"}"
+    }
+  ]
+}

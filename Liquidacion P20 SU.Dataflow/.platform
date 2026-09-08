@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Liquidacion P20 SU"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6330bdbe-e3eb-b2a8-4e11-952c15befae3"
+  }
+}

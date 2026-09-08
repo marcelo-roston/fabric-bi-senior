@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/schedules/1.0.0/schema.json",
+  "schedules": [
+    {
+      "enabled": false,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Daily",
+        "startDateTime": "2025-08-14T00:00:00",
+        "endDateTime": "2026-12-31T23:59:00",
+        "localTimeZoneId": "Argentina Standard Time",
+        "times": [
+          "01:30",
+          "05:30",
+          "07:30",
+          "09:30",
+          "13:30",
+          "15:30",
+          "17:30",
+          "18:30",
+          "21:30"
+        ]
+      }
+    }
+  ]
+}

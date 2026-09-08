@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "documentacion tms"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "451c76e4-f9b4-a271-4490-49ad3c9105be"
+  }
+}

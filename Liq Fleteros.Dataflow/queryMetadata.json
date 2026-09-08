@@ -1,0 +1,46 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Liq Fleteros",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "d8bf0660-e34c-4063-b026-d42d98a9a270",
+  "queriesMetadata": {
+    "detalle": {
+      "queryId": "27e28087-d86f-4e86-94a0-f1692851e534",
+      "queryName": "detalle",
+      "loadEnabled": false
+    },
+    "cabecera": {
+      "queryId": "9f5d6de7-98a2-4ba9-87b3-dc3f021b2aa3",
+      "queryName": "cabecera",
+      "loadEnabled": false
+    },
+    "detalle_DataDestination": {
+      "queryId": "a8fcc6e5-b59a-4ca7-937a-546b83ab0b85",
+      "queryName": "detalle_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "cabecera_DataDestination": {
+      "queryId": "e1bd91d8-3609-42a3-8e7c-24a187ff3bd7",
+      "queryName": "cabecera_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "dsn=Informix_REP;database=Estadistica",
+      "kind": "Odbc",
+      "connectionId": "{\"ClusterId\":\"d8bf0660-e34c-4063-b026-d42d98a9a270\",\"DatasourceId\":\"12a9bd96-bfbc-41dd-8626-eada7d622e15\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"d8bf0660-e34c-4063-b026-d42d98a9a270\",\"DatasourceId\":\"383f9571-5018-4fe3-8134-daf15ea66a79\"}"
+    }
+  ]
+}

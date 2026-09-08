@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "br_documentacion_tms",
+    "description": "cargo las vistas de tms"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6d406eed-12f0-b9cf-4fcd-f4b5d5690dab"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "sl_documentacion_tms",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "queriesMetadata": {
+    "br_camiones_tms": {
+      "queryId": "c8a33726-2d5e-40ab-9803-d1e291d8ef16",
+      "queryName": "br_camiones_tms",
+      "loadEnabled": false
+    },
+    "br_choferes_tms": {
+      "queryId": "eb8e31bb-df8c-4b21-baf0-7887e97b187a",
+      "queryName": "br_choferes_tms",
+      "loadEnabled": false
+    },
+    "br_semirremolques_tms": {
+      "queryId": "e54cb3f9-e067-4273-b3af-0c4dfca6ab6c",
+      "queryName": "br_semirremolques_tms",
+      "loadEnabled": false
+    },
+    "br_tansportistas_tms": {
+      "queryId": "fc66cc6c-de93-4d2f-926f-498290677aa5",
+      "queryName": "br_tansportistas_tms",
+      "loadEnabled": false
+    },
+    "br_documentacion_tms": {
+      "queryId": "799f9043-40fa-4a57-be33-acd4b2eb5f69",
+      "queryName": "br_documentacion_tms",
+      "loadEnabled": false
+    },
+    "br_documentacion_tms_DataDestination": {
+      "queryId": "e83a6876-344a-4771-8243-118fb03553e8",
+      "queryName": "br_documentacion_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "br_tansportistas_tms_DataDestination": {
+      "queryId": "2336f71a-06e0-45b5-b45c-1387ee3a1ad2",
+      "queryName": "br_tansportistas_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "br_semirremolques_tms_DataDestination": {
+      "queryId": "688c1208-1a53-4d71-bb1d-e07dcd5070f0",
+      "queryName": "br_semirremolques_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Sucursales Corregidas": {
+      "queryId": "802f94f9-78dd-49d8-9632-963fa2c97b6d",
+      "queryName": "Sucursales Corregidas"
+    },
+    "br_camiones_tms_DataDestination": {
+      "queryId": "dd0e11e6-93bd-4e61-94e6-49d00ae142c9",
+      "queryName": "br_camiones_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "br_choferes_tms_DataDestination": {
+      "queryId": "6544ab64-c02f-4cd3-8fed-df4e81c57f3b",
+      "queryName": "br_choferes_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"81fdc7b8-128f-4e45-98ae-aee88227fdb0\"}"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "PNR Carritos Silver",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "queriesMetadata": {
+    "br_pnr_carritos": {
+      "queryId": "41ae3c05-52f7-4e91-b41e-b2e14311b654",
+      "queryName": "br_pnr_carritos",
+      "loadEnabled": false
+    },
+    "br_pnr_carritos_DataDestination": {
+      "queryId": "2245b3e7-838c-4f23-be68-25dcef2ae5e4",
+      "queryName": "br_pnr_carritos_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "br_pnr_resumen_volumen": {
+      "queryId": "80840ed2-931c-47a2-893e-cd730f06dd74",
+      "queryName": "br_pnr_resumen_volumen",
+      "loadEnabled": false
+    },
+    "br_soluciones problemas": {
+      "queryId": "165c997d-110d-4b8c-8344-b305a6f97eea",
+      "queryName": "br_soluciones problemas",
+      "loadEnabled": false
+    },
+    "br_soluciones problemas_DataDestination": {
+      "queryId": "f3981336-b1c4-4f59-ab4e-8958fbfd2d16",
+      "queryName": "br_soluciones problemas_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"81fdc7b8-128f-4e45-98ae-aee88227fdb0\"}"
+    }
+  ]
+}

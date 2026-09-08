@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Troncales TMS"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1abda9c4-c288-9335-4346-1f00acc82246"
+  }
+}

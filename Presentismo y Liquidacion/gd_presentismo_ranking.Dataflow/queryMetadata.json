@@ -1,0 +1,46 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "gd_presentismo_ranking",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "queriesMetadata": {
+    "Presentes U3 Productividad": {
+      "queryId": "d14d2e0f-2ca7-4358-96c7-723f52483e2c",
+      "queryName": "Presentes U3 Productividad"
+    },
+    "sl_presentes_carritos": {
+      "queryId": "8f53d1ed-5abd-45da-a370-76f2fe370818",
+      "queryName": "sl_presentes_carritos"
+    },
+    "br_presentes_u3": {
+      "queryId": "8e71b4f6-4bee-4612-a6b3-df95e257eba2",
+      "queryName": "br_presentes_u3",
+      "loadEnabled": false
+    },
+    "FLETERO_CABECERA": {
+      "queryId": "1f38cf96-65d3-4dd8-9663-a85c79aeb4c8",
+      "queryName": "FLETERO_CABECERA"
+    },
+    "Presentismo unificado": {
+      "queryId": "4da6e25b-0ba0-4748-9834-a82b1058bee4",
+      "queryName": "Presentismo unificado",
+      "loadEnabled": false
+    },
+    "Presentismo unificado_DataDestination": {
+      "queryId": "98c91cd5-733a-4b64-82b6-0932fa7c17b9",
+      "queryName": "Presentismo unificado_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"81fdc7b8-128f-4e45-98ae-aee88227fdb0\"}"
+    }
+  ]
+}

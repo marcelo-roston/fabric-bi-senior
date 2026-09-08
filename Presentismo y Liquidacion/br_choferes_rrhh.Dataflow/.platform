@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "br_choferes_rrhh",
+    "description": "fleteros desde informix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3c7064c8-2cfa-9700-407b-44fcb3f6eee1"
+  }
+}

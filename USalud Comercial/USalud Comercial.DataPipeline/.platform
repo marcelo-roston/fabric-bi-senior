@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "USalud Comercial"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0a5246ae-6025-8d47-4e93-b933268e33da"
+  }
+}

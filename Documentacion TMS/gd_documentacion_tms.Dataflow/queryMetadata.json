@@ -1,0 +1,77 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "gd_documentacion_tms",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "queriesMetadata": {
+    "sl_camiones_tms": {
+      "queryId": "a99ac64a-8762-40ca-8318-35df91c90d64",
+      "queryName": "sl_camiones_tms",
+      "loadEnabled": false
+    },
+    "sl_choferes_tms": {
+      "queryId": "f4883eab-aba2-4607-aeca-9c0685e7f9a9",
+      "queryName": "sl_choferes_tms",
+      "loadEnabled": false
+    },
+    "sl_documentacion_tms": {
+      "queryId": "c638f3c3-f758-453e-b2d1-1255a6599ec3",
+      "queryName": "sl_documentacion_tms",
+      "loadEnabled": false
+    },
+    "sl_semirremolques_tms": {
+      "queryId": "9d030ba0-1c99-444f-8723-45e150d0ec2a",
+      "queryName": "sl_semirremolques_tms",
+      "loadEnabled": false
+    },
+    "sl_tansportistas_tms": {
+      "queryId": "0e22da08-d3fe-4578-aefc-1aa5fbebea28",
+      "queryName": "sl_tansportistas_tms",
+      "loadEnabled": false
+    },
+    "Estado Entidad": {
+      "queryId": "9d431d8b-da16-4274-9146-84f7878f7574",
+      "queryName": "Estado Entidad"
+    },
+    "sl_choferes_tms_DataDestination": {
+      "queryId": "1fbc9af5-9b17-47cd-8e7f-81a05b339b63",
+      "queryName": "sl_choferes_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "sl_documentacion_tms_DataDestination": {
+      "queryId": "1efbbd3d-a294-4d97-98da-8e1d4f9a1fc7",
+      "queryName": "sl_documentacion_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "sl_semirremolques_tms_DataDestination": {
+      "queryId": "93d03104-1325-40fb-b2cf-0f06fb09412a",
+      "queryName": "sl_semirremolques_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "sl_tansportistas_tms_DataDestination": {
+      "queryId": "37559387-b780-4ca0-8751-606d357f70d1",
+      "queryName": "sl_tansportistas_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "sl_camiones_tms_DataDestination": {
+      "queryId": "f75d43b2-7887-4474-9484-1e76bfa142f3",
+      "queryName": "sl_camiones_tms_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"81fdc7b8-128f-4e45-98ae-aee88227fdb0\"}"
+    }
+  ]
+}

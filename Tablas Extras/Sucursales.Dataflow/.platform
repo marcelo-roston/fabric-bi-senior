@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Sucursales"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9c3e9463-742e-b71f-4d52-861147bf4716"
+  }
+}

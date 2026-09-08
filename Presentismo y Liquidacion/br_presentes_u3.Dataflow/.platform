@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "br_presentes_u3",
+    "description": "presentes de U3 desde u21:caratula"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c77211bc-83e3-a4b3-4b9a-ad85b16098c8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "gd_presentismo_ranking"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "67af6d84-514c-a6d8-4a57-c0d6a3afd5f7"
+  }
+}

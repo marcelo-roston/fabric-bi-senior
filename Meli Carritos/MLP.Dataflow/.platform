@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "MLP",
+    "description": "Excel Meli en Sharepoint"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5fbfb413-0297-b4aa-4745-5b4d05a5a5a3"
+  }
+}

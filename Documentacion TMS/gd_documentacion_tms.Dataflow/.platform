@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "gd_documentacion_tms"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0c9f373d-7455-b667-4cb1-a4b2f7241933"
+  }
+}

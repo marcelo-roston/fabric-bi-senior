@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "tablero_usalud_silver"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "78a9049e-35f6-b8a0-49b1-da3c6ba557a2"
+  }
+}

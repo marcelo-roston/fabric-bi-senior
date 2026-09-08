@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Presentismo y Liquidación",
+    "description": "Actualiza tableros de presentismo y liquidación de carritos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "708879c8-6a26-80cb-4578-741b5822c5c0"
+  }
+}

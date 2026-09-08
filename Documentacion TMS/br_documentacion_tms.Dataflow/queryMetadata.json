@@ -1,0 +1,88 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Vistas TMS Silver",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "4aeae9b8-0872-4788-bfa6-e602077c91f6",
+  "queriesMetadata": {
+    "Choferes": {
+      "queryId": "295b9a22-0492-4429-82aa-15b271f97add",
+      "queryName": "Choferes",
+      "loadEnabled": false
+    },
+    "Camiones": {
+      "queryId": "33a32943-d228-4394-817a-e355456ec144",
+      "queryName": "Camiones",
+      "loadEnabled": false
+    },
+    "Semirremolques": {
+      "queryId": "7b0d1689-be9d-4934-857f-32782fd21dbb",
+      "queryName": "Semirremolques",
+      "loadEnabled": false
+    },
+    "Transportistas": {
+      "queryId": "0f2b4a5f-d566-451a-a3f8-947da5a960e1",
+      "queryName": "Transportistas",
+      "loadEnabled": false
+    },
+    "Tipo_Vehiculos": {
+      "queryId": "4fea5fc3-b274-4800-9db1-1c6b0f5b3bfd",
+      "queryName": "Tipo_Vehiculos",
+      "loadEnabled": false
+    },
+    "Tipo_Vehiculos_DataDestination": {
+      "queryId": "aca644a8-9849-4313-9b44-b61a25c1bee9",
+      "queryName": "Tipo_Vehiculos_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Documentacion": {
+      "queryId": "44319a97-1f7a-4949-8da0-76ffaa75a42a",
+      "queryName": "Documentacion",
+      "loadEnabled": false
+    },
+    "Documentacion_DataDestination": {
+      "queryId": "fcb4785c-811f-4e06-90f0-3ba99891617d",
+      "queryName": "Documentacion_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Choferes_DataDestination": {
+      "queryId": "05439949-3e93-494a-b193-0cd7c78b85f9",
+      "queryName": "Choferes_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Camiones_DataDestination": {
+      "queryId": "98ac0a21-d091-46a9-8425-b4c628694854",
+      "queryName": "Camiones_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Semirremolques_DataDestination": {
+      "queryId": "c120b19e-cfe6-460b-96ff-8179efb3ad33",
+      "queryName": "Semirremolques_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Transportistas_DataDestination": {
+      "queryId": "36f71fb4-a534-4e17-9802-7b458638bc11",
+      "queryName": "Transportistas_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "181.30.37.12,10340;SGLBI_URBANO_PROD",
+      "kind": "SQL",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"906be8cc-6f2c-4c92-965b-cb9bfe0da198\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"cb66675a-e5c0-4e4c-9e49-c130c761516c\"}"
+    }
+  ]
+}

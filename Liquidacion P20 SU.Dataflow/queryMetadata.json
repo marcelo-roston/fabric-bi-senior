@@ -1,0 +1,43 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Liquidacion P20 SU",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "d8bf0660-e34c-4063-b026-d42d98a9a270",
+  "queriesMetadata": {
+    "vw_fleteros_p20sinUnidad": {
+      "queryId": "5c3b6188-a652-4928-a788-31eadfadd249",
+      "queryName": "vw_fleteros_p20sinUnidad",
+      "loadEnabled": false
+    },
+    "vw_fleteros_p20sinUnidad_detalle": {
+      "queryId": "66379e6c-7dd9-48f8-adc5-ca71e61f682e",
+      "queryName": "vw_fleteros_p20sinUnidad_detalle"
+    },
+    "vw_fleteros_p20sinUnidad_carritos": {
+      "queryId": "5c4ff048-3a28-4c87-a446-9c01c72c3797",
+      "queryName": "vw_fleteros_p20sinUnidad_carritos"
+    },
+    "vw_fleteros_p20sinUnidad_DataDestination": {
+      "queryId": "0a941585-afa4-47f5-8e10-bcd14ec16ff7",
+      "queryName": "vw_fleteros_p20sinUnidad_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "PowerPlatformDataflows",
+      "kind": "PowerPlatformDataflows",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"7acfdb5c-047b-403e-9f17-9ade2025b039\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"d8bf0660-e34c-4063-b026-d42d98a9a270\",\"DatasourceId\":\"383f9571-5018-4fe3-8134-daf15ea66a79\"}"
+    }
+  ]
+}

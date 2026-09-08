@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "br_carga_archivos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c63b34a4-c672-bf89-450a-b89ffae69eec"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "gd_reportes_carritos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "089bee73-171c-9b8e-4143-9461bccbe8bf"
+  }
+}

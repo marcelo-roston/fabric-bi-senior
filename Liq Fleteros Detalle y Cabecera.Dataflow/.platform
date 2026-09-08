@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Liq Fleteros Detalle y Cabecera",
+    "description": "Tablas de Detalle y Cabecera para tablero de Costos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "332bc94c-8199-b4c2-4242-d70fca87d1dd"
+  }
+}

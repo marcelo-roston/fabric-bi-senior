@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "PNR Carritos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e65e52de-5e1b-8110-403d-d624b6eec582"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "br_reportes_carritos",
+    "description": "Contiene descargas de reporte de operaciones, reporte treggo, tarifario y sucursales carritos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "58b846a9-5a9f-903d-47c2-5aa3a52faa03"
+  }
+}

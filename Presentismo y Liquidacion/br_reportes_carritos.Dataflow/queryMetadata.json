@@ -1,0 +1,93 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Reporte de Operaciones",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "d8bf0660-e34c-4063-b026-d42d98a9a270",
+  "queriesMetadata": {
+    "Reporte de Operaciones": {
+      "queryId": "05517369-46cd-4ff5-b4cc-90aaf3ed5a25",
+      "queryName": "Reporte de Operaciones",
+      "loadEnabled": false
+    },
+    "Tarifario": {
+      "queryId": "7ca5d9f0-2637-4a24-85aa-5bc999a8b99d",
+      "queryName": "Tarifario",
+      "loadEnabled": false
+    },
+    "Reporte Treggo": {
+      "queryId": "bec1ce80-90f2-4ece-8e24-8b31a9551cec",
+      "queryName": "Reporte Treggo",
+      "loadEnabled": false
+    },
+    "Sucursales": {
+      "queryId": "d5a5acca-8718-454a-be75-180f96220a25",
+      "queryName": "Sucursales",
+      "loadEnabled": false
+    },
+    "Reporte de Operaciones_DataDestination": {
+      "queryId": "2dc42546-8fb8-47cd-a821-3bea0d19b85b",
+      "queryName": "Reporte de Operaciones_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Sucursales_DataDestination": {
+      "queryId": "87a27950-fae2-4aa4-82c8-48ecd9685d67",
+      "queryName": "Sucursales_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Reporte Op nexus": {
+      "queryId": "78a4c615-fdf8-4af7-814d-8122dd888885",
+      "queryName": "Reporte Op nexus",
+      "loadEnabled": false
+    },
+    "Reporte Treggo_DataDestination": {
+      "queryId": "623b47bd-277f-4972-bc8f-2c66262fd0b4",
+      "queryName": "Reporte Treggo_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Tarifario_DataDestination": {
+      "queryId": "b6e87fc4-a84f-40ff-9c3f-151ceef7e7ba",
+      "queryName": "Tarifario_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "PNU": {
+      "queryId": "88deb51c-c9da-4371-b21e-1f6b8b82de74",
+      "queryName": "PNU",
+      "loadEnabled": false
+    },
+    "PNU_DataDestination": {
+      "queryId": "fb50ad52-db6d-40ec-b40f-fab49e7c550e",
+      "queryName": "PNU_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Reconocimiento PNU": {
+      "queryId": "73a95283-427c-462c-a38b-ee2cc1d7973c",
+      "queryName": "Reconocimiento PNU",
+      "loadEnabled": false
+    },
+    "Reconocimiento PNU_DataDestination": {
+      "queryId": "c828709e-ffb4-4778-bf12-766b72fa132e",
+      "queryName": "Reconocimiento PNU_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"d8bf0660-e34c-4063-b026-d42d98a9a270\",\"DatasourceId\":\"383f9571-5018-4fe3-8134-daf15ea66a79\"}"
+    },
+    {
+      "path": "https://urbexpress.sharepoint.com/",
+      "kind": "SharePoint",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"82094b56-0284-4e93-9a8b-ebaf3ceeb2c6\"}"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "VISTA_FLETERO_CABECERA",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/VISTA_FLETERO_CABECERA",
+        "itemId": "0411bb33-a804-8688-48a8-23eb5f494725",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Lakehouse"
+      }
+    }
+  }
+]

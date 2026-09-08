@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Feriados"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1796ee7b-5a05-b10d-47d0-1d5c5c202f22"
+  }
+}

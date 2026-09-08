@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "PNR Carritos Gold"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3975c408-6b39-98a2-42ca-f620c1016b34"
+  }
+}

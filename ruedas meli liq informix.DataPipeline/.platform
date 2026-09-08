@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "ruedas meli liq informix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bc098c4b-9b08-8cd3-4902-bdad12627339"
+  }
+}

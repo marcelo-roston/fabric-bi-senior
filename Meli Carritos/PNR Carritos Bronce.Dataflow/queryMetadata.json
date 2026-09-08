@@ -1,0 +1,57 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "PNR Carritos",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "4aeae9b8-0872-4788-bfa6-e602077c91f6",
+  "queriesMetadata": {
+    "PNR": {
+      "queryId": "5508863f-1cc1-4d75-89fa-621462fca407",
+      "queryName": "PNR",
+      "loadEnabled": false
+    },
+    "PNR_DataDestination": {
+      "queryId": "22676f74-c935-4005-9690-c2090a815843",
+      "queryName": "PNR_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "resumen volumen": {
+      "queryId": "6a71047e-44fa-44fc-b3fd-0952e08165ef",
+      "queryName": "resumen volumen",
+      "loadEnabled": false
+    },
+    "resumen volumen_DataDestination": {
+      "queryId": "479476fa-eb42-45d1-b622-44d9fea8b953",
+      "queryName": "resumen volumen_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "solucion de problemas": {
+      "queryId": "38f18aa0-9e87-461c-b37e-b95ecf8e089f",
+      "queryName": "solucion de problemas",
+      "loadEnabled": false
+    },
+    "solucion de problemas_DataDestination": {
+      "queryId": "a3389d2a-6b76-4d64-ba66-b1da5288e81a",
+      "queryName": "solucion de problemas_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://urbexpress.sharepoint.com",
+      "kind": "SharePoint",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"63d4d60e-63b5-4a2e-9de9-aa05019912f2\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"4aeae9b8-0872-4788-bfa6-e602077c91f6\",\"DatasourceId\":\"cb66675a-e5c0-4e4c-9e49-c130c761516c\"}"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Liq Fleteros Detalle y Cabecera",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "d8bf0660-e34c-4063-b026-d42d98a9a270",
+  "queriesMetadata": {
+    "Cabecera": {
+      "queryId": "510b3339-bce2-47a8-bc52-695ebf6d3cda",
+      "queryName": "Cabecera",
+      "loadEnabled": false
+    },
+    "Detalle": {
+      "queryId": "1963ac01-8099-4fb4-ab8b-72c2214ab306",
+      "queryName": "Detalle",
+      "loadEnabled": false
+    },
+    "Cabecera_DataDestination": {
+      "queryId": "5651d186-01ba-49b2-880b-5b2f4131313d",
+      "queryName": "Cabecera_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Detalle_DataDestination": {
+      "queryId": "b14898d0-cd7d-4a38-9515-b6dedb85c68b",
+      "queryName": "Detalle_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "vw_adicional_zona_historico": {
+      "queryId": "33a0adc7-3065-4e43-9ad0-9a3cf0d72436",
+      "queryName": "vw_adicional_zona_historico"
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"81fdc7b8-128f-4e45-98ae-aee88227fdb0\"}"
+    },
+    {
+      "path": "dsn=Informix_REP;database=Estadistica",
+      "kind": "Odbc",
+      "connectionId": "{\"ClusterId\":\"d8bf0660-e34c-4063-b026-d42d98a9a270\",\"DatasourceId\":\"12a9bd96-bfbc-41dd-8626-eada7d622e15\"}"
+    }
+  ]
+}

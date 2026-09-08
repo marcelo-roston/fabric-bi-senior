@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/schedules/1.0.0/schema.json",
+  "schedules": [
+    {
+      "enabled": false,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Daily",
+        "startDateTime": "2025-09-11T00:00:00",
+        "endDateTime": "2028-06-11T23:59:00",
+        "localTimeZoneId": "Argentina Standard Time",
+        "times": [
+          "09:00"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Daily",
+        "startDateTime": "2025-09-11T00:00:00",
+        "endDateTime": "2027-03-04T23:59:00",
+        "localTimeZoneId": "Argentina Standard Time",
+        "times": [
+          "09:00"
+        ]
+      }
+    }
+  ]
+}

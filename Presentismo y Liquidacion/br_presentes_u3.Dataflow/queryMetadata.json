@@ -1,0 +1,35 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Presentismo Silver 2",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "gatewayObjectId": "d8bf0660-e34c-4063-b026-d42d98a9a270",
+  "queriesMetadata": {
+    "u3 caratulas": {
+      "queryId": "c5b24668-0246-4f5b-bb07-f36d3b315768",
+      "queryName": "u3 caratulas",
+      "loadEnabled": false
+    },
+    "u3 caratulas_DataDestination": {
+      "queryId": "22c8a34b-d5c1-4782-92d9-f0747a6ef765",
+      "queryName": "u3 caratulas_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "dsn=Informix_REP;database=Estadistica",
+      "kind": "Odbc",
+      "connectionId": "{\"ClusterId\":\"d8bf0660-e34c-4063-b026-d42d98a9a270\",\"DatasourceId\":\"12a9bd96-bfbc-41dd-8626-eada7d622e15\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"cf2d7a33-5028-44d1-93ba-39741eb32eca\",\"DatasourceId\":\"81fdc7b8-128f-4e45-98ae-aee88227fdb0\"}"
+    }
+  ]
+}
